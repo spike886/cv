@@ -435,3 +435,6 @@ $(function() {
      return map;
  }
 
+jQuery.extend(jQuery.validator.messages, {
+    required: "Este campo es obligatorio"
+});
