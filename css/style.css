@@ -1592,11 +1592,11 @@ margin-bottom:20px;
 .white{
     color: white;
 }
-a.white:hover > .text {
+a.white.text:hover {
     color: #ccc;
 }
 
-a.white > .text {
+a.white.text {
 	color: white;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
