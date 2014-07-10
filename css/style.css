@@ -713,6 +713,16 @@ h3.tagline-lg.grey {
     padding: 15px;
     margin: 0px;
 }
+.recomendation-post p {
+	margin-top: 20px;
+}
+.recomendation-post {
+    width: 70%;
+    height: 100%;
+    display: table-cell;
+    padding: 15px;
+    margin: 0px;
+}
 .education.reference {
     background-color: white;
 }
