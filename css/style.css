@@ -1614,3 +1614,5 @@ a.white.text {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.nav>li>a:hover, .nav>li>a:focus{
+    background-color: #1E1E1E !important;
