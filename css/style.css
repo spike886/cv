@@ -981,7 +981,7 @@ nav.slide-effect a {
 }
 .btn-skills {
 	overflow: hidden;
-	margin: 0 15px;
+	margin: 15px 15px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -1030,6 +1030,9 @@ nav.slide-effect a {
 .skills-orange {
     border-left: 4px #F1B31E solid;
 }
+.skills-red {
+    border-left: 4px #CC0000 solid;
+}
 .skills-teal {
     border-left: 4px #0DCBA5 solid;
 }
@@ -1044,6 +1047,9 @@ nav.slide-effect a {
 }
 .btn-skills.skills-orange::before {
     background-color: #F1B31E;
+}
+.btn-skills.skills-red::before {
+    background-color: #D94A38;
 }
 .btn-skills.skills-teal::before {
     background-color: #0DCBA5;

@@ -51,10 +51,10 @@ var skillData = {
             value: '90%'
         },
         {
-            title: "BootStrap 3 55%",
+            title: "BootStrap 3 75%",
             color: "#1b7ee4",
             border: "4px solid #8cc2f9",
-            value: '55%'
+            value: '75%'
         },
         {
             title: "AngularJS 70%",
@@ -81,6 +81,12 @@ var skillData = {
             color: "#87b615",
             border: "4px solid #e4f9b1",
             value: '100%'
+        },
+        {
+            title: "Git 80%",
+            color: "#87b615",
+            border: "4px solid #e4f9b1",
+            value: '80%'
         }
     ],
     skill4: [
@@ -91,19 +97,19 @@ var skillData = {
             value: '95%'
         },
         {
+            title: "Grape 85%",
+            color: "#CD950D",
+            border: "4px solid #FBE2A6",
+            value: '85%'
+        },
+        {
             title: "Linux 80%",
             color: "#CD950D",
             border: "4px solid #FBE2A6",
             value: '80%'
         },
         {
-            title: "MySql 70%",
-            color: "#CD950D",
-            border: "4px solid #FBE2A6",
-            value: '70%'
-        },
-        {
-            title: "API 80%",
+            title: "REST API 80%",
             color: "#CD950D",
             border: "4px solid #FBE2A6",
             value: '80%'
@@ -127,6 +133,32 @@ var skillData = {
             color: "#01A785",
             border: "4px solid #8DEAD7",
             value: '40%'
+        }
+    ],
+    skill6: [
+        {
+            title: "MySql 80%",
+            color: "#CC0000",
+            border: "4px solid #D94A38",
+            value: '75%'
+        },
+        {
+            title: "Postgres 85%",
+            color: "#CC0000",
+            border: "4px solid #D94A38",
+            value: '85%'
+        },
+        {
+            title: "Redis 70%",
+            color: "#CC0000",
+            border: "4px solid #D94A38",
+            value: '70%'
+        },
+        {
+            title: "Elasticsearch 60%",
+            color: "#CC0000",
+            border: "4px solid #D94A38",
+            value: '60%'
         }
     ]
 }
