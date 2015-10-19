@@ -123,7 +123,7 @@ var skillData = {
             value: '70%'
         },
         {
-            title: "Agiles 80%",
+            title: "Agile 80%",
             color: "#01A785",
             border: "4px solid #8DEAD7",
             value: '80%'

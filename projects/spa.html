@@ -1,0 +1,42 @@
+<div class="single-portfolio">
+  <div class="row">
+      <div class="col-md-8" id="primary">
+         <img alt="project1" src="images/portfolio/spa.png" class="img-responsive" />
+      </div>
+
+      <div class="col-md-4" id="secondary">
+        <!-- Project Summary -->
+        <div class="project-desc">
+          <h3>Tablet app to control Spa</h3>
+          <div class="line-strong"></div>
+          <ul class="list-details">
+            <li><i class="fa fa-calendar"></i> July 2015</li>
+            <li>
+                <i class="fa fa-tags"></i>
+                <span class="label btn-info">JavaScript</span>
+                <span class="label btn-info">Angular</span>
+                <span class="label btn-info">Ionic</span>
+                <span class="label btn-info">Android</span>
+                <span class="label btn-info">Usb</span>
+                <span class="label btn-info">Arduino</span>
+                <span class="label btn-info">WebGL</span>
+            </li>
+              <li><i class="fa fa-globe"></i> Secret information </li>
+          </ul>
+          <p>Android application to control and spa.</p>
+          <p>Connected to Arduino by USB</p>
+          <p>Using WebGL to create water simulation</p>
+        </div>
+        <!-- End Project Summary -->
+      </div>
+    </div>
+    <script>
+        $(function(){
+            $("#tags").tags({
+                readOnly: true,
+                tagData: ["JavaScript", "Angular", "Ionic", "Android", "Usb", "Arduino", "WebGL"]
+            });
+        });
+    </script>
+    <!-- End .row -->
+  </div>

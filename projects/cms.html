@@ -1,0 +1,39 @@
+<div class="single-portfolio">
+  <div class="row">
+      <div class="col-md-8" id="primary">
+         <img alt="project1" src="images/portfolio/cms.png" class="img-responsive" />
+      </div>
+
+      <div class="col-md-4" id="secondary">
+        <!-- Project Summary -->
+        <div class="project-desc">
+          <h3>Backend application for website management (CMS)</h3>
+          <div class="line-strong"></div>
+          <ul class="list-details">
+            <li><i class="fa fa-calendar"></i> September 2015</li>
+            <li>
+                <i class="fa fa-tags"></i>
+                <span class="label btn-info">Ruby</span>
+                <span class="label btn-info">Rails</span>
+                <span class="label btn-info">Postgres</span>
+                <span class="label btn-info">S3</span>
+                <span class="label btn-info">Pardot</span>
+            </li>
+            <li><i class="fa fa-globe"></i><a href="https://www.erlang-solutions.com/" target="_blank">Erlang Solutions CMS</a></li>
+          </ul>
+          <p>Backend application to create and administrate webpages</p>
+          <p>Created with security and scalability on mind</p>
+        </div>
+        <!-- End Project Summary -->
+      </div>
+    </div>
+    <script>
+        $(function(){
+            $("#tags").tags({
+                readOnly: true,
+                tagData: ["Ruby", "Rails", "Postgres", "S3", "Pardot"]
+            });
+        });
+    </script>
+    <!-- End .row -->
+  </div>
