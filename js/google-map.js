@@ -2,7 +2,7 @@ $(window).load(function(){
 //Google Map					
 	var latlng = new google.maps.LatLng(-37.817683,144.965022);
 	var settings = {
-		zoom: 16,
+		zoom: 3,
 		center: new google.maps.LatLng(-37.817683,144.965022), mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false,
 		scrollwheel: false,
@@ -19,9 +19,9 @@ $(window).load(function(){
 	});	
 	var contentString = 
 		'<div id="content">'+
-		'  <h3>ALPINE STUDIOS</h3>'+
+		'  <h3>Andres Garcia</h3>'+
 		'  <div id="bodyContent">'+
-		'    <p>Envato, Level 13, 2 Elizabeth St, Melbourne,<br>Victoria 3000, Australia.</p>'+
+		'    <p>Buenos Aires, <br>Argentina</p>'+
 		'  </div>'+
 		'</div>';
 	var infowindow = new google.maps.InfoWindow({
@@ -37,7 +37,7 @@ $(window).load(function(){
 		position: companyPos,
 		map: map,
 		icon: companyImage,               
-		title:"Creative News",
+		title:"Andres Garcia",
 		zIndex: 3});
 	google.maps.event.addListener(companyMarker, 'click', function() {
 		infowindow.open(map,companyMarker);
